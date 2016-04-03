@@ -15,10 +15,8 @@
 		107AE0951CB0F13A00B98C38 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0941CB0F13A00B98C38 /* SWRevealViewController.m */; };
 		107AE0971CB0F24D00B98C38 /* SlideOutMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0961CB0F24D00B98C38 /* SlideOutMenuViewController.swift */; };
 		107AE0991CB102FE00B98C38 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0981CB102FE00B98C38 /* DataService.swift */; };
-		107AE09D1CB106CA00B98C38 /* ForumsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE09A1CB106CA00B98C38 /* ForumsFeedTableViewController.swift */; };
-		107AE09E1CB106CA00B98C38 /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE09B1CB106CA00B98C38 /* AddNewViewController.swift */; };
-		107AE09F1CB106CA00B98C38 /* ForumCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE09C1CB106CA00B98C38 /* ForumCellTableViewCell.swift */; };
-		107AE0A11CB106E700B98C38 /* Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0A01CB106E700B98C38 /* Forum.swift */; };
+		107AE0AE1CB1B06700B98C38 /* AddNewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0AC1CB1B06700B98C38 /* AddNewPostViewController.swift */; };
+		107AE0AF1CB1B06700B98C38 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0AD1CB1B06700B98C38 /* ListTableViewController.swift */; };
 		10BCDA431CA9DE6900764884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BCDA421CA9DE6900764884 /* AppDelegate.swift */; };
 		10BCDA451CA9DE6900764884 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BCDA441CA9DE6900764884 /* HomeViewController.swift */; };
 		10BCDA481CA9DE6900764884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BCDA461CA9DE6900764884 /* Main.storyboard */; };
@@ -38,10 +36,8 @@
 		107AE0941CB0F13A00B98C38 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		107AE0961CB0F24D00B98C38 /* SlideOutMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOutMenuViewController.swift; sourceTree = "<group>"; };
 		107AE0981CB102FE00B98C38 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
-		107AE09A1CB106CA00B98C38 /* ForumsFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumsFeedTableViewController.swift; sourceTree = "<group>"; };
-		107AE09B1CB106CA00B98C38 /* AddNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
-		107AE09C1CB106CA00B98C38 /* ForumCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumCellTableViewCell.swift; sourceTree = "<group>"; };
-		107AE0A01CB106E700B98C38 /* Forum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forum.swift; sourceTree = "<group>"; };
+		107AE0AC1CB1B06700B98C38 /* AddNewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewPostViewController.swift; sourceTree = "<group>"; };
+		107AE0AD1CB1B06700B98C38 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		10BCDA3F1CA9DE6900764884 /* SMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BCDA421CA9DE6900764884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10BCDA441CA9DE6900764884 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -127,17 +123,15 @@
 			children = (
 				10BCDA421CA9DE6900764884 /* AppDelegate.swift */,
 				107AE0981CB102FE00B98C38 /* DataService.swift */,
-				107AE0A01CB106E700B98C38 /* Forum.swift */,
 				104C41021CAA2B7E003B38C3 /* Admissions */,
 				104C40FF1CAA1047003B38C3 /* Library */,
 				10BCDA441CA9DE6900764884 /* HomeViewController.swift */,
 				107AE0961CB0F24D00B98C38 /* SlideOutMenuViewController.swift */,
 				104C40FA1CAA0B4F003B38C3 /* Maps */,
 				10BCDA461CA9DE6900764884 /* Main.storyboard */,
-				107AE09A1CB106CA00B98C38 /* ForumsFeedTableViewController.swift */,
-				107AE09B1CB106CA00B98C38 /* AddNewViewController.swift */,
-				107AE09C1CB106CA00B98C38 /* ForumCellTableViewCell.swift */,
 				10BCDA491CA9DE6900764884 /* Assets.xcassets */,
+				107AE0AC1CB1B06700B98C38 /* AddNewPostViewController.swift */,
+				107AE0AD1CB1B06700B98C38 /* ListTableViewController.swift */,
 				107AE0911CB0F11700B98C38 /* Supporting files */,
 			);
 			path = SMC;
@@ -286,15 +280,13 @@
 				107AE0971CB0F24D00B98C38 /* SlideOutMenuViewController.swift in Sources */,
 				107AE0951CB0F13A00B98C38 /* SWRevealViewController.m in Sources */,
 				10BCDA451CA9DE6900764884 /* HomeViewController.swift in Sources */,
-				107AE09E1CB106CA00B98C38 /* AddNewViewController.swift in Sources */,
 				10BCDA431CA9DE6900764884 /* AppDelegate.swift in Sources */,
 				104C41041CAA2B93003B38C3 /* admissionsViewController.swift in Sources */,
+				107AE0AE1CB1B06700B98C38 /* AddNewPostViewController.swift in Sources */,
 				104C41011CAA105A003B38C3 /* libraryViewController.swift in Sources */,
 				104C40FC1CAA0B6B003B38C3 /* pdfCampusMapViewController.swift in Sources */,
+				107AE0AF1CB1B06700B98C38 /* ListTableViewController.swift in Sources */,
 				107AE0991CB102FE00B98C38 /* DataService.swift in Sources */,
-				107AE0A11CB106E700B98C38 /* Forum.swift in Sources */,
-				107AE09D1CB106CA00B98C38 /* ForumsFeedTableViewController.swift in Sources */,
-				107AE09F1CB106CA00B98C38 /* ForumCellTableViewCell.swift in Sources */,
 				104C40F91CAA01FA003B38C3 /* mapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
