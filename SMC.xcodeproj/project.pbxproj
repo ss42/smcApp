@@ -11,11 +11,20 @@
 		104C40FC1CAA0B6B003B38C3 /* pdfCampusMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C40FB1CAA0B6B003B38C3 /* pdfCampusMapViewController.swift */; };
 		104C40FE1CAA0C00003B38C3 /* campusMap.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 104C40FD1CAA0C00003B38C3 /* campusMap.pdf */; };
 		104C41011CAA105A003B38C3 /* libraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C41001CAA105A003B38C3 /* libraryViewController.swift */; };
+		104C41041CAA2B93003B38C3 /* admissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C41031CAA2B93003B38C3 /* admissionsViewController.swift */; };
+		107AE0951CB0F13A00B98C38 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0941CB0F13A00B98C38 /* SWRevealViewController.m */; };
+		107AE0971CB0F24D00B98C38 /* SlideOutMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0961CB0F24D00B98C38 /* SlideOutMenuViewController.swift */; };
+		107AE0991CB102FE00B98C38 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0981CB102FE00B98C38 /* DataService.swift */; };
+		107AE09D1CB106CA00B98C38 /* ForumsFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE09A1CB106CA00B98C38 /* ForumsFeedTableViewController.swift */; };
+		107AE09E1CB106CA00B98C38 /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE09B1CB106CA00B98C38 /* AddNewViewController.swift */; };
+		107AE09F1CB106CA00B98C38 /* ForumCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE09C1CB106CA00B98C38 /* ForumCellTableViewCell.swift */; };
+		107AE0A11CB106E700B98C38 /* Forum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0A01CB106E700B98C38 /* Forum.swift */; };
 		10BCDA431CA9DE6900764884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BCDA421CA9DE6900764884 /* AppDelegate.swift */; };
-		10BCDA451CA9DE6900764884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BCDA441CA9DE6900764884 /* ViewController.swift */; };
+		10BCDA451CA9DE6900764884 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BCDA441CA9DE6900764884 /* HomeViewController.swift */; };
 		10BCDA481CA9DE6900764884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BCDA461CA9DE6900764884 /* Main.storyboard */; };
 		10BCDA4A1CA9DE6900764884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BCDA491CA9DE6900764884 /* Assets.xcassets */; };
 		10BCDA4D1CA9DE6900764884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BCDA4B1CA9DE6900764884 /* LaunchScreen.storyboard */; };
+		C6396EB83C095C44D6734CF3 /* Pods_SMC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86384989E9B2BE269F37A83 /* Pods_SMC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +32,26 @@
 		104C40FB1CAA0B6B003B38C3 /* pdfCampusMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pdfCampusMapViewController.swift; sourceTree = "<group>"; };
 		104C40FD1CAA0C00003B38C3 /* campusMap.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = campusMap.pdf; sourceTree = "<group>"; };
 		104C41001CAA105A003B38C3 /* libraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libraryViewController.swift; sourceTree = "<group>"; };
+		104C41031CAA2B93003B38C3 /* admissionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = admissionsViewController.swift; sourceTree = "<group>"; };
+		107AE0921CB0F13900B98C38 /* SMC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMC-Bridging-Header.h"; sourceTree = "<group>"; };
+		107AE0931CB0F13A00B98C38 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		107AE0941CB0F13A00B98C38 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		107AE0961CB0F24D00B98C38 /* SlideOutMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOutMenuViewController.swift; sourceTree = "<group>"; };
+		107AE0981CB102FE00B98C38 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		107AE09A1CB106CA00B98C38 /* ForumsFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumsFeedTableViewController.swift; sourceTree = "<group>"; };
+		107AE09B1CB106CA00B98C38 /* AddNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
+		107AE09C1CB106CA00B98C38 /* ForumCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForumCellTableViewCell.swift; sourceTree = "<group>"; };
+		107AE0A01CB106E700B98C38 /* Forum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forum.swift; sourceTree = "<group>"; };
 		10BCDA3F1CA9DE6900764884 /* SMC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BCDA421CA9DE6900764884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10BCDA441CA9DE6900764884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10BCDA441CA9DE6900764884 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		10BCDA471CA9DE6900764884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10BCDA491CA9DE6900764884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10BCDA4C1CA9DE6900764884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10BCDA4E1CA9DE6900764884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5312D404A330BCF3D9716A4C /* Pods-SMC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMC/Pods-SMC.release.xcconfig"; sourceTree = "<group>"; };
+		B86384989E9B2BE269F37A83 /* Pods_SMC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28D445A0F2EEAE7CEFD7E2F /* Pods-SMC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMC/Pods-SMC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6396EB83C095C44D6734CF3 /* Pods_SMC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,11 +84,33 @@
 			name = Library;
 			sourceTree = "<group>";
 		};
+		104C41021CAA2B7E003B38C3 /* Admissions */ = {
+			isa = PBXGroup;
+			children = (
+				104C41031CAA2B93003B38C3 /* admissionsViewController.swift */,
+			);
+			name = Admissions;
+			sourceTree = "<group>";
+		};
+		107AE0911CB0F11700B98C38 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				107AE0931CB0F13A00B98C38 /* SWRevealViewController.h */,
+				107AE0941CB0F13A00B98C38 /* SWRevealViewController.m */,
+				10BCDA4B1CA9DE6900764884 /* LaunchScreen.storyboard */,
+				10BCDA4E1CA9DE6900764884 /* Info.plist */,
+				107AE0921CB0F13900B98C38 /* SMC-Bridging-Header.h */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
 		10BCDA361CA9DE6900764884 = {
 			isa = PBXGroup;
 			children = (
 				10BCDA411CA9DE6900764884 /* SMC */,
 				10BCDA401CA9DE6900764884 /* Products */,
+				E01F666027692AF8A91B4C33 /* Pods */,
+				AC1748282196DAB559DB55D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,15 +126,38 @@
 			isa = PBXGroup;
 			children = (
 				10BCDA421CA9DE6900764884 /* AppDelegate.swift */,
+				107AE0981CB102FE00B98C38 /* DataService.swift */,
+				107AE0A01CB106E700B98C38 /* Forum.swift */,
+				104C41021CAA2B7E003B38C3 /* Admissions */,
 				104C40FF1CAA1047003B38C3 /* Library */,
-				10BCDA441CA9DE6900764884 /* ViewController.swift */,
+				10BCDA441CA9DE6900764884 /* HomeViewController.swift */,
+				107AE0961CB0F24D00B98C38 /* SlideOutMenuViewController.swift */,
 				104C40FA1CAA0B4F003B38C3 /* Maps */,
 				10BCDA461CA9DE6900764884 /* Main.storyboard */,
+				107AE09A1CB106CA00B98C38 /* ForumsFeedTableViewController.swift */,
+				107AE09B1CB106CA00B98C38 /* AddNewViewController.swift */,
+				107AE09C1CB106CA00B98C38 /* ForumCellTableViewCell.swift */,
 				10BCDA491CA9DE6900764884 /* Assets.xcassets */,
-				10BCDA4B1CA9DE6900764884 /* LaunchScreen.storyboard */,
-				10BCDA4E1CA9DE6900764884 /* Info.plist */,
+				107AE0911CB0F11700B98C38 /* Supporting files */,
 			);
 			path = SMC;
+			sourceTree = "<group>";
+		};
+		AC1748282196DAB559DB55D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B86384989E9B2BE269F37A83 /* Pods_SMC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E01F666027692AF8A91B4C33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F28D445A0F2EEAE7CEFD7E2F /* Pods-SMC.debug.xcconfig */,
+				5312D404A330BCF3D9716A4C /* Pods-SMC.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10BCDA511CA9DE6900764884 /* Build configuration list for PBXNativeTarget "SMC" */;
 			buildPhases = (
+				CED0DE06A5318CEECE1D7EBB /* Check Pods Manifest.lock */,
 				10BCDA3B1CA9DE6900764884 /* Sources */,
 				10BCDA3C1CA9DE6900764884 /* Frameworks */,
 				10BCDA3D1CA9DE6900764884 /* Resources */,
+				DD9CFDF68FBBD8753170AF12 /* Embed Pods Frameworks */,
+				F2AE8710ECB34BE126D8E03E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,15 +230,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CED0DE06A5318CEECE1D7EBB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD9CFDF68FBBD8753170AF12 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMC/Pods-SMC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2AE8710ECB34BE126D8E03E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SMC/Pods-SMC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10BCDA3B1CA9DE6900764884 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10BCDA451CA9DE6900764884 /* ViewController.swift in Sources */,
+				107AE0971CB0F24D00B98C38 /* SlideOutMenuViewController.swift in Sources */,
+				107AE0951CB0F13A00B98C38 /* SWRevealViewController.m in Sources */,
+				10BCDA451CA9DE6900764884 /* HomeViewController.swift in Sources */,
+				107AE09E1CB106CA00B98C38 /* AddNewViewController.swift in Sources */,
 				10BCDA431CA9DE6900764884 /* AppDelegate.swift in Sources */,
+				104C41041CAA2B93003B38C3 /* admissionsViewController.swift in Sources */,
 				104C41011CAA105A003B38C3 /* libraryViewController.swift in Sources */,
 				104C40FC1CAA0B6B003B38C3 /* pdfCampusMapViewController.swift in Sources */,
+				107AE0991CB102FE00B98C38 /* DataService.swift in Sources */,
+				107AE0A11CB106E700B98C38 /* Forum.swift in Sources */,
+				107AE09D1CB106CA00B98C38 /* ForumsFeedTableViewController.swift in Sources */,
+				107AE09F1CB106CA00B98C38 /* ForumCellTableViewCell.swift in Sources */,
 				104C40F91CAA01FA003B38C3 /* mapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,24 +406,31 @@
 		};
 		10BCDA521CA9DE6900764884 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28D445A0F2EEAE7CEFD7E2F /* Pods-SMC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "St-Marys.SMC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SMC/SMC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		10BCDA531CA9DE6900764884 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5312D404A330BCF3D9716A4C /* Pods-SMC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "St-Marys.SMC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SMC/SMC-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
