@@ -1,5 +1,10 @@
 //
 //  AddNewPostViewController.swift
+//  SMC
+//
+//  Created by Sanjay Shrestha on 4/3/16.
+//  Copyright © 2016 www.ssanjay.com. All rights reserved.
+//
 
 
 import UIKit
@@ -8,13 +13,13 @@ import Firebase
 class AddNewPostViewController: UIViewController {
 
     @IBOutlet weak var nameTextField: UITextField!
-    @IBOutlet weak var photoImageView: UIImageView!
+   // @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var postDescriptions: UITextView!
     
     
     let firebase = Firebase(url:"https://smc-essentials.firebaseio.com/profiles")
     
-    var imagePicker: UIImagePickerController = UIImagePickerController()
+   /// var imagePicker: UIImagePickerController = UIImagePickerController()
     
     
     override func viewDidLoad() {
@@ -29,15 +34,15 @@ class AddNewPostViewController: UIViewController {
 
         let name = nameTextField.text
         let description = postDescriptions.text
-        var data: NSData = NSData()
+       /*** var data: NSData = NSData()
 
         if let image = photoImageView.image {
            data = UIImageJPEGRepresentation(image,0.1)!
         }
         
-        let base64String = data.base64EncodedStringWithOptions(NSDataBase64EncodingOptions.Encoding64CharacterLineLength)
+        let base64String = data.base64EncodedStringWithOptions(NSDataBase64EncodingOptions.Encoding64CharacterLineLength)**/
 
-        let user: NSDictionary = ["name":name!,"description": description!, "photoBase64":base64String]
+        let user: NSDictionary = ["name":name!,"description": description!]//, "photoBase64":base64String]
         
         //add firebase child node
         let profile = firebase.ref.childByAppendingPath(name!)
@@ -55,6 +60,7 @@ class AddNewPostViewController: UIViewController {
         super.touchesBegan(touches, withEvent: event)
     }
 }
+/**
 
 extension AddNewPostViewController : UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
@@ -87,3 +93,4 @@ extension AddNewPostViewController : UIImagePickerControllerDelegate, UINavigati
         }
     }
 }
+**/

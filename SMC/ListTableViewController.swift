@@ -1,5 +1,10 @@
 //
 //  ListTableViewController.swift
+//  SMC
+//
+//  Created by Sanjay Shrestha on 4/3/16.
+//  Copyright © 2016 www.ssanjay.com. All rights reserved.
+//
 
 
 import UIKit
@@ -8,7 +13,8 @@ import Firebase
 class ListTableViewController: UITableViewController {
     
     let firebase = Firebase(url:"https://smc-essentials.firebaseio.com/profiles")
-    var items = [NSDictionary]()
+    var items = ["test", "test1", "tseet2", "stest3"]
+    var postDescription = ["descreiption test", "destest1", "desisdfkseet2", "stesfsdfst3"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,9 +22,9 @@ class ListTableViewController: UITableViewController {
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        items = [NSDictionary]()
+       //tems = [NSDictionary]()
         
-        loadDataFromFirebase()
+        //loadDataFromFirebase()
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,14 +44,22 @@ class ListTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 
-        let cell = tableView.dequeueReusableCellWithIdentifier("profileCell", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("profileCell")
         
-        configureCell(cell, indexPath: indexPath)
-        tableViewStyle(cell)
         
-        return cell
+        
+       // let dict = items[indexPath.row]
+        cell?.textLabel!.text = items[indexPath.row]
+      //  cell?.textLabel.text = postDescription[indexPath.row]
+        
+        
+      //  let base64String = dict["photoBase64"] as! String
+     //   populateImage(cell, imageString: base64String)
+      //  tableViewStyle(cell)
+        
+        return cell!
     }
-    
+       /**
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
             
@@ -54,37 +68,29 @@ class ListTableViewController: UITableViewController {
             
             // delete data from firebase
             
-            let profile = firebase.ref.childByAppendingPath(name)
-            profile.removeValue()
+            //let profile = firebase.ref.childByAppendingPath(name)
+         //   profile.removeValue()
         }
     }
     
-    // MARK:- Configure Cell
     
-    func configureCell(cell: UITableViewCell, indexPath: NSIndexPath) {
-        let dict = items[indexPath.row]
-        
-        cell.textLabel?.text = dict["name"] as? String
         
         
-        let base64String = dict["photoBase64"] as! String
-        populateImage(cell, imageString: base64String)
-      
-    }
-    
-    
-   //MARK:- Populate Image
+  
+        
+        //MARK:- Populate Image
     
     func populateImage(cell:UITableViewCell, imageString: String) {
         
         let decodedData = NSData(base64EncodedString: imageString, options: NSDataBase64DecodingOptions.IgnoreUnknownCharacters)
- 
+        
         let decodedImage = UIImage(data: decodedData!)
         
         cell.imageView!.image = decodedImage
-
+        
     }
     
+  
     // MARK:- Apply TableViewCell Style
     
     func tableViewStyle(cell: UITableViewCell) {
@@ -120,5 +126,5 @@ class ListTableViewController: UITableViewController {
             UIApplication.sharedApplication().networkActivityIndicatorVisible = false
             
         })
-    }
+    }**/
 }
