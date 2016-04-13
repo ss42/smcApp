@@ -46,7 +46,6 @@ class DataService {
         
         USER_REF.childByAppendingPath(uid).setValue(user)
     }
-    /*
     
     func createNewJoke(joke: Dictionary<String, AnyObject>) {
         
@@ -59,5 +58,5 @@ class DataService {
         // setValue() saves to Firebase.
         
         firebaseNewJoke.setValue(joke)
-    }*/
+    }
 }
