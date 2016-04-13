@@ -8,13 +8,12 @@
 
 
 import UIKit
-import Firebase
+
+//import Firebase
 
 class ListTableViewController: UITableViewController {
     
-    let firebase = Firebase(url:"https://smc-essentials.firebaseio.com/profiles")
-    var items = ["test", "test1", "tseet2", "stest3"]
-    var postDescription = ["descreiption test", "destest1", "desisdfkseet2", "stesfsdfst3"]
+    let booksForSale = Post.temporaryPost()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,31 +32,36 @@ class ListTableViewController: UITableViewController {
     }
 
     // MARK: - Table view data source
-
+/**
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1
+        return booksForSale.count
     }
-
+**/
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return items.count
+        return booksForSale.count
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 
-        let cell = tableView.dequeueReusableCellWithIdentifier("profileCell")
+        let cell = tableView.dequeueReusableCellWithIdentifier("profileCell") as! PostTableViewCell
+       
+        
+        let post = booksForSale[indexPath.row]
         
         
+        //Configure each cell
+        cell.bookImage = UIImage(named: post.image)
+        cell.bookTitle.text = post.title
+        cell.bookDetail.text = post.description
+        cell.priceLabel.text = post.priceTag
+        cell.postedTimeLabel.text = post.postedTime
+      
         
-       // let dict = items[indexPath.row]
-        cell?.textLabel!.text = items[indexPath.row]
-      //  cell?.textLabel.text = postDescription[indexPath.row]
-        
-        
-      //  let base64String = dict["photoBase64"] as! String
+        //  let base64String = dict["photoBase64"] as! String
      //   populateImage(cell, imageString: base64String)
       //  tableViewStyle(cell)
         
-        return cell!
+        return cell
     }
        /**
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {

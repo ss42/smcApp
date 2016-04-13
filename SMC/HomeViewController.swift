@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeController.swift
 //  SMC
 //
 //  Created by Sanjay Shrestha on 3/28/16.

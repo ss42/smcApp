@@ -12,6 +12,13 @@
 		104C40FE1CAA0C00003B38C3 /* campusMap.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 104C40FD1CAA0C00003B38C3 /* campusMap.pdf */; };
 		104C41011CAA105A003B38C3 /* libraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C41001CAA105A003B38C3 /* libraryViewController.swift */; };
 		104C41041CAA2B93003B38C3 /* admissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104C41031CAA2B93003B38C3 /* admissionsViewController.swift */; };
+		1052AC1B1CB969FD001D75F2 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052AC1A1CB969FD001D75F2 /* PostTableViewCell.swift */; };
+		1052AC1D1CB96B60001D75F2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052AC1C1CB96B60001D75F2 /* Post.swift */; };
+		1052AC1F1CB96CAD001D75F2 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1052AC1E1CB96CAD001D75F2 /* Books.swift */; };
+		1066F2411CB8C32500CD795F /* AddToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066F2401CB8C32500CD795F /* AddToDoTableViewCell.swift */; };
+		1066F2431CB8C33400CD795F /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066F2421CB8C33400CD795F /* ToDoViewController.swift */; };
+		1066F2451CB8C33C00CD795F /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066F2441CB8C33C00CD795F /* ToDoTableViewCell.swift */; };
+		1066F2471CB8C34B00CD795F /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1066F2461CB8C34B00CD795F /* ToDoModel.swift */; };
 		107AE0951CB0F13A00B98C38 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0941CB0F13A00B98C38 /* SWRevealViewController.m */; };
 		107AE0971CB0F24D00B98C38 /* SlideOutMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0961CB0F24D00B98C38 /* SlideOutMenuViewController.swift */; };
 		107AE0AE1CB1B06700B98C38 /* AddNewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107AE0AC1CB1B06700B98C38 /* AddNewPostViewController.swift */; };
@@ -21,6 +28,9 @@
 		10BCDA481CA9DE6900764884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BCDA461CA9DE6900764884 /* Main.storyboard */; };
 		10BCDA4A1CA9DE6900764884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BCDA491CA9DE6900764884 /* Assets.xcassets */; };
 		10BCDA4D1CA9DE6900764884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10BCDA4B1CA9DE6900764884 /* LaunchScreen.storyboard */; };
+		10DBD74A1CBE983E0010731C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DBD7491CBE983E0010731C /* LoginViewController.swift */; };
+		10DBD74C1CBE984D0010731C /* CreateNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DBD74B1CBE984D0010731C /* CreateNewAccountViewController.swift */; };
+		10DBD74E1CBE9C470010731C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DBD74D1CBE9C470010731C /* DataService.swift */; };
 		C6396EB83C095C44D6734CF3 /* Pods_SMC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86384989E9B2BE269F37A83 /* Pods_SMC.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +40,13 @@
 		104C40FD1CAA0C00003B38C3 /* campusMap.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = campusMap.pdf; sourceTree = "<group>"; };
 		104C41001CAA105A003B38C3 /* libraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libraryViewController.swift; sourceTree = "<group>"; };
 		104C41031CAA2B93003B38C3 /* admissionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = admissionsViewController.swift; sourceTree = "<group>"; };
+		1052AC1A1CB969FD001D75F2 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		1052AC1C1CB96B60001D75F2 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		1052AC1E1CB96CAD001D75F2 /* Books.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		1066F2401CB8C32500CD795F /* AddToDoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoTableViewCell.swift; sourceTree = "<group>"; };
+		1066F2421CB8C33400CD795F /* ToDoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		1066F2441CB8C33C00CD795F /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		1066F2461CB8C34B00CD795F /* ToDoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
 		107AE0921CB0F13900B98C38 /* SMC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMC-Bridging-Header.h"; sourceTree = "<group>"; };
 		107AE0931CB0F13A00B98C38 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		107AE0941CB0F13A00B98C38 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -43,6 +60,9 @@
 		10BCDA491CA9DE6900764884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10BCDA4C1CA9DE6900764884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10BCDA4E1CA9DE6900764884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10DBD7491CBE983E0010731C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		10DBD74B1CBE984D0010731C /* CreateNewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewAccountViewController.swift; sourceTree = "<group>"; };
+		10DBD74D1CBE9C470010731C /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		5312D404A330BCF3D9716A4C /* Pods-SMC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMC/Pods-SMC.release.xcconfig"; sourceTree = "<group>"; };
 		B86384989E9B2BE269F37A83 /* Pods_SMC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28D445A0F2EEAE7CEFD7E2F /* Pods-SMC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMC/Pods-SMC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,9 +106,41 @@
 			name = Admissions;
 			sourceTree = "<group>";
 		};
+		1052AC181CB9698B001D75F2 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				107AE0AC1CB1B06700B98C38 /* AddNewPostViewController.swift */,
+				107AE0AD1CB1B06700B98C38 /* ListTableViewController.swift */,
+				1052AC1A1CB969FD001D75F2 /* PostTableViewCell.swift */,
+				1052AC191CB969E1001D75F2 /* Model */,
+			);
+			name = Posts;
+			sourceTree = "<group>";
+		};
+		1052AC191CB969E1001D75F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1052AC1C1CB96B60001D75F2 /* Post.swift */,
+				1052AC1E1CB96CAD001D75F2 /* Books.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1066F23F1CB8C2EE00CD795F /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				1066F2421CB8C33400CD795F /* ToDoViewController.swift */,
+				1066F2441CB8C33C00CD795F /* ToDoTableViewCell.swift */,
+				1066F2401CB8C32500CD795F /* AddToDoTableViewCell.swift */,
+				1066F2461CB8C34B00CD795F /* ToDoModel.swift */,
+			);
+			name = ToDo;
+			sourceTree = "<group>";
+		};
 		107AE0911CB0F11700B98C38 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				107AE0961CB0F24D00B98C38 /* SlideOutMenuViewController.swift */,
 				107AE0931CB0F13A00B98C38 /* SWRevealViewController.h */,
 				107AE0941CB0F13A00B98C38 /* SWRevealViewController.m */,
 				10BCDA4B1CA9DE6900764884 /* LaunchScreen.storyboard */,
@@ -120,18 +172,28 @@
 			isa = PBXGroup;
 			children = (
 				10BCDA421CA9DE6900764884 /* AppDelegate.swift */,
+				10DBD74D1CBE9C470010731C /* DataService.swift */,
 				104C41021CAA2B7E003B38C3 /* Admissions */,
 				104C40FF1CAA1047003B38C3 /* Library */,
 				10BCDA441CA9DE6900764884 /* HomeViewController.swift */,
-				107AE0961CB0F24D00B98C38 /* SlideOutMenuViewController.swift */,
+				10DBD7481CBE98240010731C /* Login/Register */,
 				104C40FA1CAA0B4F003B38C3 /* Maps */,
 				10BCDA461CA9DE6900764884 /* Main.storyboard */,
 				10BCDA491CA9DE6900764884 /* Assets.xcassets */,
-				107AE0AC1CB1B06700B98C38 /* AddNewPostViewController.swift */,
-				107AE0AD1CB1B06700B98C38 /* ListTableViewController.swift */,
+				1066F23F1CB8C2EE00CD795F /* ToDo */,
+				1052AC181CB9698B001D75F2 /* Posts */,
 				107AE0911CB0F11700B98C38 /* Supporting files */,
 			);
 			path = SMC;
+			sourceTree = "<group>";
+		};
+		10DBD7481CBE98240010731C /* Login/Register */ = {
+			isa = PBXGroup;
+			children = (
+				10DBD7491CBE983E0010731C /* LoginViewController.swift */,
+				10DBD74B1CBE984D0010731C /* CreateNewAccountViewController.swift */,
+			);
+			name = Login/Register;
 			sourceTree = "<group>";
 		};
 		AC1748282196DAB559DB55D0 /* Frameworks */ = {
@@ -186,6 +248,7 @@
 				TargetAttributes = {
 					10BCDA3E1CA9DE6900764884 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7B9F98EQ3K;
 					};
 				};
 			};
@@ -274,16 +337,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DBD74A1CBE983E0010731C /* LoginViewController.swift in Sources */,
+				10DBD74C1CBE984D0010731C /* CreateNewAccountViewController.swift in Sources */,
 				107AE0971CB0F24D00B98C38 /* SlideOutMenuViewController.swift in Sources */,
 				107AE0951CB0F13A00B98C38 /* SWRevealViewController.m in Sources */,
+				1052AC1B1CB969FD001D75F2 /* PostTableViewCell.swift in Sources */,
 				10BCDA451CA9DE6900764884 /* HomeViewController.swift in Sources */,
 				10BCDA431CA9DE6900764884 /* AppDelegate.swift in Sources */,
+				1066F2431CB8C33400CD795F /* ToDoViewController.swift in Sources */,
+				1066F2451CB8C33C00CD795F /* ToDoTableViewCell.swift in Sources */,
 				104C41041CAA2B93003B38C3 /* admissionsViewController.swift in Sources */,
+				1066F2471CB8C34B00CD795F /* ToDoModel.swift in Sources */,
 				107AE0AE1CB1B06700B98C38 /* AddNewPostViewController.swift in Sources */,
 				104C41011CAA105A003B38C3 /* libraryViewController.swift in Sources */,
+				1052AC1F1CB96CAD001D75F2 /* Books.swift in Sources */,
+				1052AC1D1CB96B60001D75F2 /* Post.swift in Sources */,
 				104C40FC1CAA0B6B003B38C3 /* pdfCampusMapViewController.swift in Sources */,
 				107AE0AF1CB1B06700B98C38 /* ListTableViewController.swift in Sources */,
+				1066F2411CB8C32500CD795F /* AddToDoTableViewCell.swift in Sources */,
 				104C40F91CAA01FA003B38C3 /* mapsViewController.swift in Sources */,
+				10DBD74E1CBE9C470010731C /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,10 +471,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "St-Marys.SMC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SMC/SMC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,10 +490,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SMC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "St-Marys.SMC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "SMC/SMC-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
